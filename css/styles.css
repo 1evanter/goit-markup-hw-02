@@ -11,6 +11,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
 }
 
 .link {
@@ -53,7 +54,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--text-color);
+
 }
 
 .visually-hidden {
@@ -75,10 +76,11 @@ body {
 /* -------------header------------- */
 
 .header-logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
+    text-transform: uppercase;
     color: var(--main-title-color);
 }
 
@@ -103,7 +105,7 @@ body {
 
 .address-mail,
 .address-tel {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -154,13 +156,6 @@ body {
 
 
 
-.features-descr {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--text-color);
-}
-
 
 /* -------------functions----------- */
 
@@ -180,6 +175,11 @@ body {
 }
 
 .footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    text-transform: uppercase;
     color: var(--background-color);
 }
 
