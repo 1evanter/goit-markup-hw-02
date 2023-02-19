@@ -142,14 +142,14 @@ body {
 }
 
 .hero-btn {
-    color: var(--white-color);
-    background-color: var(--accent-color);
+    color: var(--accent-color);
+    background-color: var(--second-background-color);
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-    color: var(--second-accent-color);
-    background-color: var(--second-background-color);
+    color: var(--white-color);
+    background-color: var(--accent-color);
 }
 
 /* ------------features------------- */
